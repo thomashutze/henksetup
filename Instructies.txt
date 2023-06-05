@@ -2,4 +2,4 @@
 2. Laat raspberry (Henk) opstarten
 3. update henk (sudo apt-get update)
 (als je geen wifi usbtje hebt moet je --wifi-interface="wlan1" veranderen naar --wifi-interface="wlan0" 
-4. sudo ./setup-network.sh --install --ap-ssid="Henk" --ap-password="henkiscool" --ap-password-encrypt --ap-country-code="NL" --wifi-interface="wlan1" 
+4. sudo bash ./setup-network.sh --install --ap-ssid="Henk" --ap-password="henkiscool" --ap-password-encrypt --ap-country-code="NL" --wifi-interface="wlan1" 
