@@ -1,0 +1,4 @@
+1. Installeer raspbian lite (wifi config moet ook!)
+2. Laat raspberry (Henk) opstarten
+(als je geen wifi usbtje hebt moet je --wifi-interface="wlan1" veranderen naar --wifi-interface="wlan0" 
+3. sudo ./setup-network.sh --install --ap-ssid="Henk" --ap-password="henkiscool" --ap-password-encrypt --ap-country-code="NL" --wifi-interface="wlan1" 
